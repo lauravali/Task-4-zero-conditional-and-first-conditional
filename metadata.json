@@ -1,0 +1,6 @@
+{
+  "name": "Kuromi's English Academy: Zero & First Conditional",
+  "description": "Una aventura gamificada y kawaii con Kuromi para dominar el Zero y First Conditional en inglés A2 con reglas de clase y hábitos de estudio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
