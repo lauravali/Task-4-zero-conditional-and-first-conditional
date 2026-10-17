@@ -40,10 +40,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   };
 
   const navItems = [
-    { id: 'intro' as ActiveTab, label: '🌟 Introducción & Clases', icon: Sparkles, badge: 'Inicio' },
+    { id: 'intro' as ActiveTab, label: '🌟 Intro & Lessons', icon: Sparkles, badge: 'Start' },
     { id: 'rules' as ActiveTab, label: 'Classroom Rules', icon: CheckSquare, badge: '5 Preguntas' },
     { id: 'habits' as ActiveTab, label: 'Study Habits', icon: Link2, badge: '10 Conexiones' },
-    { id: 'grimoire' as ActiveTab, label: 'Grimorio de Reglas', icon: BookOpen, badge: 'Fórmulas' },
+    { id: 'grimoire' as ActiveTab, label: 'Rule Grimoire', icon: BookOpen, badge: 'Formulas' },
     { id: 'lab' as ActiveTab, label: 'Sentence Lab', icon: Layers, badge: 'Práctica' },
   ];
 
@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Ver Stickers y Certificado"
             >
               <Trophy size={14} className="text-yellow-400" />
-              <span className="hidden sm:inline">Nivel {progress.level}</span>
+              <span className="hidden sm:inline">Level {progress.level}</span>
               <span className="text-pink-400 font-extrabold">({progress.xp} XP)</span>
             </button>
 

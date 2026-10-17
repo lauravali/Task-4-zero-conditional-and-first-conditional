@@ -124,7 +124,7 @@ export const KuromiCompanion: React.FC<KuromiCompanionProps> = ({
               {/* Interactive badge badge */}
               <div className="absolute -bottom-1 -right-1 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md flex items-center gap-1 border border-pink-300">
                 <Heart size={10} className="fill-current text-white animate-pulse" />
-                <span>¡Tócame!</span>
+                <span>Tap me!</span>
               </div>
             </div>
           </div>
@@ -137,10 +137,10 @@ export const KuromiCompanion: React.FC<KuromiCompanionProps> = ({
 
               <div className="flex items-start justify-between gap-2 mb-1">
                 <span className="text-[11px] font-bold text-pink-400 flex items-center gap-1 uppercase tracking-wider">
-                  <MessageCircle size={12} /> Kuromi dice:
+                  <MessageCircle size={12} /> KUROMI SAYS:
                 </span>
                 <span className="text-[10px] text-purple-300/70">
-                  (Toca a Kuromi para más tips)
+                  (Tap Kuromi for more tips)
                 </span>
               </div>
 
@@ -153,7 +153,7 @@ export const KuromiCompanion: React.FC<KuromiCompanionProps> = ({
             <div className="mt-3 bg-purple-950/60 rounded-xl p-2 border border-purple-500/20">
               <div className="flex items-center justify-between text-[11px] font-bold mb-1">
                 <span className="text-purple-300 flex items-center gap-1">
-                  <Sparkles size={12} className="text-yellow-400" /> XP de Travesura
+                  <Sparkles size={12} className="text-yellow-400" /> Mischief XP
                 </span>
                 <span className="text-pink-300">{progress.xp % 100} / 100 XP</span>
               </div>

@@ -183,11 +183,11 @@ export default function App() {
             <div className="flex items-center justify-between mb-1">
               <Sparkles size={16} className="text-yellow-400" />
               <span className="text-[10px] bg-pink-500/20 text-pink-300 border border-pink-500/30 px-1.5 py-0.2 rounded-full font-bold">
-                Inicio
+                Start
               </span>
             </div>
-            <div className="font-display font-bold text-xs text-pink-100">🌟 Intro & Clases</div>
-            <div className="text-[10px] text-purple-400">Objetivos y Explicación</div>
+            <div className="font-display font-bold text-xs text-pink-100">🌟 Intro & Lessons</div>
+            <div className="text-[10px] text-purple-400">Objectives & Explanation</div>
           </button>
 
           <button
@@ -253,11 +253,11 @@ export default function App() {
             <div className="flex items-center justify-between mb-1">
               <BookOpen size={16} className="text-fuchsia-400" />
               <span className="text-[10px] bg-purple-900/40 text-purple-300 px-1.5 py-0.2 rounded-full font-bold">
-                Fórmulas
+                Formulas
               </span>
             </div>
-            <div className="font-display font-bold text-xs text-pink-100">3. Grimorio Secreto</div>
-            <div className="text-[10px] text-purple-400">Guía y Trampas</div>
+            <div className="font-display font-bold text-xs text-pink-100">3. Rule Grimoire</div>
+            <div className="text-[10px] text-purple-400">Formulas & Tips</div>
           </button>
 
           <button

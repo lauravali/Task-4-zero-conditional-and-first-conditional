@@ -100,7 +100,7 @@ export const StickerBookModal: React.FC<StickerBookModalProps> = ({
           </p>
 
           <div className="mt-3 py-2 px-3 bg-purple-950/60 rounded-xl inline-flex items-center gap-4 text-xs font-bold text-pink-300 border border-purple-800">
-            <span>Nivel: {progress.level}</span>
+            <span>Level: {progress.level}</span>
             <span>XP: {progress.xp} pts</span>
             <span>Racha Máxima: {progress.highestStreak} 🔥</span>
           </div>

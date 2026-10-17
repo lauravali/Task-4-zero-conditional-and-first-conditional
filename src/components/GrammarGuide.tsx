@@ -13,7 +13,7 @@ export const GrammarGuide: React.FC = () => {
       {/* Header banner */}
       <div className="bg-gradient-to-r from-purple-900/60 via-pink-950/50 to-purple-900/60 border border-pink-500/30 rounded-3xl p-6 text-center shadow-lg relative overflow-hidden">
         <div className="inline-flex items-center gap-2 bg-pink-500/20 text-pink-300 border border-pink-400/40 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-2">
-          <BookOpen size={14} /> El Grimorio Secreto de Kuromi
+          <BookOpen size={14} /> Kuromi&apos;s Rule Grimoire
         </div>
         <h2 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-200 to-fuchsia-300 font-display">
           Zero vs First Conditional (Guía A2)
